@@ -1,9 +1,11 @@
 <template>
-  <div class="flex my-5">
-    <div class="font-bold text-2xl font-serif mr-16">CINEMA MOVIES</div>
+  <div class="flex my-5 ml-5">
+    <div class="font-bold text-2xl font-serif mr-16">
+      <router-link to="/">CINEMA MOVIES</router-link>
+    </div>
     <ul class="flex">
       <li class="mr-16">
-        <router-link to="/movies"> Movie </router-link>
+        <router-link to="/"> Movie </router-link>
       </li>
       <li class="mr-16">
         <router-link to="/actors"> Actors </router-link>
